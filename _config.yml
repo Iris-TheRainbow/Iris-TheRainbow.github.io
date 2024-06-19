@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Iris # the main title
 
 tagline: A text-focused Jekyll theme # it will display as the sub-title
 
@@ -26,16 +26,14 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: Iris-TheRainbow # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Iris
+  email: snazzsinclair@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
@@ -86,7 +84,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -96,7 +94,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://1.gravatar.com/avatar/eff4705adec973404213b5e110132b4930a26144294b68a83fd9caf8c8ccdc72?size=256
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
