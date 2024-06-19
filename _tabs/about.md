@@ -6,4 +6,7 @@ order: 4
 
 Hello!
 
-I'm Iris! I'm trans, 16, and enjoy programing and playing games
+I'm Iris! I'm trans, 16, and enjoy programing and playing games. Im a member of First Tech Challange 15031, BoltBusterZ. 
+
+My particular interests include combat robotics, Valorant Esports, and finding new ways to procrastinate doing my homework.
+
