@@ -6,4 +6,4 @@ order: 4
 
 Hello!
 
-I'm Iris, a 16 year old 
+I'm Iris! I'm trans, 16, and enjoy programing and playing games
