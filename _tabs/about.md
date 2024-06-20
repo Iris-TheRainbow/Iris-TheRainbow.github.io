@@ -32,8 +32,8 @@ function getOPR() {
         .then(response => {
             var team0 = response.data.data.upcoming["0"]["teams"]["0"]["tag"];
             var team1 = response.data.data.upcoming["0"]["teams"]["1"]["tag"];
-            document.getElementById("team0").innerHTML = team0
-            document.getElementById("team1").innerHTML = team1            
+            document.getElementById("team0").innerHTML = team0;
+            document.getElementById("team1").innerHTML = team1;            
         })}
 </script>
 
