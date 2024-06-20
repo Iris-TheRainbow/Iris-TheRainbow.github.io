@@ -13,16 +13,19 @@ function getOPR() {
             var opr = Math.round((response.data["tot"]["value"])*100)/100;
             document.getElementById("opr").innerHTML = opr;
             var rank = Math.min(response.data["auto"]["rank"], response.data["dc"]["rank"], response.data["eg"]["rank"]);
-            var value = Math.min(response.data["auto"]["value"], response.data["dc"]["value"], response.data["eg"]["value"]);
-            document.getElementById("value").innerHTML = Math.round(value*100)/100;
-            var best = ""
+            var value = "";
+            var best = "";
             if (rank == response.data["auto"]["rank"]){
                 best = "autonomus";
+                value = response.data["auto"]["value"];
             } else if (rank == response.data["dc"]["rank"]){
                 best = "teleOp";
+                value = response.data["dc"]["value"]
             } else if (rank == response.data["eg"]["rank"]){
                 best = "endgame";
+                value = response.data["eg"]["value"];
             }
+            document.getElementById("value").innerHTML = Math.round(value*100)/100;
             document.getElementById("best").innerHTML = best;
         })};
 function getNextSEN(){
