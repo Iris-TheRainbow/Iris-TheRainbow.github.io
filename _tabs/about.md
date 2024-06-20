@@ -11,11 +11,11 @@ I'm Iris! I'm trans, 16, and enjoy programing and playing games. Im a member of 
 My particular interests include combat robotics, Valorant Esports, and finding new ways to procrastinate doing my homework.
 
 <script language = 'javascript'>
-function myFunction() {
-    alert("Hello, world!");
+function bbzOPR() {
+    const axios = require('axios')
 }
 </script>
-<<button onclick="myFunction()">Click me</button>
-<p>BoltBusterZ OPR is currently: <b>24</b></p>
+
+<p>BoltBusterZ OPR is currently: <b>bbzOPR()</b></p>
 
 
