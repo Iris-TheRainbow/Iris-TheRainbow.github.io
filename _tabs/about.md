@@ -39,7 +39,7 @@ function getOPR() {
 
 </head>
 
-<body onload = "getOPR();">
+<body onload = "getOPR()">
 <p>Hello!</p>
 
 <p>I'm Iris! I'm trans, 16, and enjoy programing and playing games. Im a member of First Tech Challange 15031, BoltBusterZ.</p>
