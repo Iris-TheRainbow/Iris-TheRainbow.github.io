@@ -7,7 +7,7 @@ order: 4
 function getOPR()
     axios.get("https://api.ftcscout.org/rest/v1/teams/15031/quick-stats?season=2023&region=All")
         .then(response => {
-            return response.data["tot"]["value"];
+            document.getElementById("opr").innerHTML = response.data["tot"]["value"];
         })
         rl.close();
 </script>
@@ -17,4 +17,4 @@ I'm Iris! I'm trans, 16, and enjoy programing and playing games. Im a member of 
 
 My particular interests include combat robotics, Valorant Esports, and finding new ways to procrastinate doing my homework.
 
-<p>BoltBusterZ OPR is currently: <b><script>getOPR()</script></b></p>
+<p onload = "getOPR()">BoltBusterZ OPR is currently: <b><span id = "opr"></span></b></p>
