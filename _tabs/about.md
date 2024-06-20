@@ -10,19 +10,18 @@ order: 4
 function getOPR() {
     axios.get("https://api.ftcscout.org/rest/v1/teams/15031/quick-stats?season=2023&region=All")
         .then(response => {
-            console.log(response.data)
             var opr = Math.round((response.data["tot"]["value"])*100)/100;
             document.getElementById("opr").innerHTML = opr;
             var rank = Math.min(response.data["auto"]["rank"], response.data["dc"]["rank"], response.data["eg"]["rank"]);
             var value = Math.min(response.data["auto"]["value"], response.data["dc"]["value"], response.data["eg"]["value"]);
-            console.log(value)
             document.getElementById("value").innerHTML = Math.round(value*100)/100;
+            var best = ""
             if (rank == response.data["auto"]["rank"]){
-                var best = "autonomus";
+                best = "autonomus";
             } else if (rank == response.data["dc"]["rank"]){
-                var best = "teleOp";
+                best = "teleOp";
             } else if (rank == response.data["eg"]["rank"]){
-                var best = "endgame";
+                best = "endgame";
             }
             document.getElementById("best").innerHTML = best;
         })};
