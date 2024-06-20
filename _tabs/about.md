@@ -5,8 +5,7 @@ order: 4
 ---
 <head>
 <script language = 'javascript'> 
-function getOPR()
-axios.get("https://api.ftcscout.org/rest/v1/teams/15031/quick-stats?season=2023&region=All").then(response => {var opr = response.data["tot"]["value"]; document.getElementById("opr").innerHTML = opr;}) rl.close();
+function getOPR() {axios.get("https://api.ftcscout.org/rest/v1/teams/15031/quick-stats?season=2023&region=All").then(response => {var opr = response.data["tot"]["value"]; document.getElementById("opr").innerHTML = opr;}) rl.close();}
 </script>
 </head>
 Hello!
