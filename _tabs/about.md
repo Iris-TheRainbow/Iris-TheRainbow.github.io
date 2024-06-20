@@ -19,7 +19,7 @@ function getOPR() {
                 value = response.data["auto"]["value"];
             } else if (rank == response.data["dc"]["rank"]){
                 best = "teleOp";
-                value = response.data["dc"]["value"]
+                value = response.data["dc"]["value"];
             } else if (rank == response.data["eg"]["rank"]){
                 best = "endgame";
                 value = response.data["eg"]["value"];
