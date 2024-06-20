@@ -15,7 +15,7 @@ function myFunction() {
     alert("Hello, world!");
 }
 </script>
-<button onclick="myFunction()">Click me</button>
-
+<<button onclick="myFunction()">Click me</button>
+<p>BoltBusterZ OPR is currently: <b>24</b></p>
 
 
