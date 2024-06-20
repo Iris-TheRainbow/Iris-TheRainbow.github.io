@@ -5,16 +5,17 @@ order: 4
 ---
 <head>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script language = 'javascript'> 
+<script language="javascript">
 function getOPR() {
-axios.get("https://api.ftcscout.org/rest/v1/teams/15031/quick-stats?season=2023&region=All")
-.then(response => {
-var opr = response.data["tot"]["value"];
-document.getElementById("opr").innerHTML = opr;
-}) 
-rl.close();}
-</script>
+    axios.get("https://api.ftcscout.org/rest/v1/teams/15031/quick-stats?season=2023&region=All")
+        .then(response => {
+            var opr = response.data["tot"]["value"];
+            document.getElementById("opr").innerHTML = opr;
+    }) 
+rl.close();
+}</script>
 </head>
+
 <body onload = "getOPR()">
 <p>Hello!</p>
 
