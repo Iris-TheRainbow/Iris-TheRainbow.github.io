@@ -10,7 +10,7 @@ order: 4
 function getOPR() {
     axios.get("https://api.ftcscout.org/rest/v1/teams/15031/quick-stats?season=2023&region=All")
         .then(response => {
-            var opr = response.data["tot"]["value"];
+            var opr = Math.round((response.data["tot"]["value"])*100)/100;
             document.getElementById("opr").innerHTML = opr;
     })}
 </script>
