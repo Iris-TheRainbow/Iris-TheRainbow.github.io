@@ -11,7 +11,6 @@ function getOPR() {
     axios.get("https://api.ftcscout.org/rest/v1/teams/15031/quick-stats?season=2023&region=All")
         .then(response => {
             var opr = Math.round((response.data["tot"]["value"])*100)/100;
-            document.getElementById("opr").innerHTML = opr;
             var rank = Math.min(response.data["auto"]["rank"], response.data["dc"]["rank"], response.data["eg"]["rank"]);
             var value = "";
             var best = "";
@@ -25,9 +24,12 @@ function getOPR() {
                 best = "endgame";
                 value = response.data["eg"]["value"];
             }
+            document.getElementById("opr").innerHTML = opr;
             document.getElementById("value").innerHTML = Math.round(value*100)/100;
             document.getElementById("best").innerHTML = best;
         })};
+</script>
+<script>
 function getNextSEN(){
     axios.get("https://vlr.orlandomm.net/api/v1/teams/2")
         .then(response => {
@@ -35,8 +37,7 @@ function getNextSEN(){
             var team1 = response.data.data.upcoming["0"]["teams"]["1"]["tag"];
             document.getElementById("team0").innerHTML = team0
             document.getElementById("team1").innerHTML = team1            
-        })
-}
+        })};
 </script>
 
 </head>
