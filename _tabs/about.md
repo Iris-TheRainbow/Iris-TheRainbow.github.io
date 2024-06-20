@@ -12,18 +12,11 @@ function getOPR() {
         .then(response => {
             var opr = response.data["tot"]["value"];
             document.getElementById("opr").innerHTML = opr;
-    }) 
-rl.close();
-}</script>
+    })}
+</script>
 </head>
 
-<body onload = <script language = 'javascript'>
-axios.get("https://api.ftcscout.org/rest/v1/teams/15031/quick-stats?season=2023&region=All")
-        .then(response => {
-            var opr = response.data["tot"]["value"];
-            document.getElementById("opr").innerHTML = opr;
-    }) 
-rl.close();</script>>
+<body onload = "getOPR()">
 <p>Hello!</p>
 
 <p>I'm Iris! I'm trans, 16, and enjoy programing and playing games. Im a member of First Tech Challange 15031, BoltBusterZ.</p>
