@@ -12,10 +12,8 @@ My particular interests include combat robotics, Valorant Esports, and finding n
 
 <script language = 'javascript'>
 function bbzOPR() {
-    const axios = require('axios')
+    return 24;
 }
 </script>
 
 <p>BoltBusterZ OPR is currently: <b>bbzOPR()</b></p>
-
-
