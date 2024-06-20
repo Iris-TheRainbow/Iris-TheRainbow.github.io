@@ -44,8 +44,8 @@ function getOPR() {
 
 <p>I'm Iris! I'm trans, 16, and enjoy programing and playing games. Im a member of First Tech Challange 15031, BoltBusterZ.</p>
 
-<p>My particular interests include combat robotics, Valorant Esports, and finding new ways to procrastinate doing my homework<p>
+<p>My particular interests include robotics, Valorant Esports, and finding new ways to procrastinate doing my homework<p>
 
 <p> BoltBusterZ OPR is currently <b><span id = "opr"></span></b>. Our best OPR is <b><span id = "best"></span></b> with <b><span id = "value"></span></b>.</p>
 
-<p> The next Sentinels match is <b><span id = "team0"></span> vs <span id = "team1"></span></b></p>
+<p> The next Sentinels match is <b><span id = "team0"></span> vs <span id = "team1"></span></b>, which <b>SEN</b> has a <b>100% </b> chance of winning. </p>
