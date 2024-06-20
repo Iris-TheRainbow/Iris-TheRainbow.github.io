@@ -27,10 +27,7 @@ function getOPR() {
             document.getElementById("opr").innerHTML = opr;
             document.getElementById("value").innerHTML = Math.round(value*100)/100;
             document.getElementById("best").innerHTML = best;
-        })};
-</script>
-<script>
-function getNextSEN(){
+        });
     axios.get("https://vlr.orlandomm.net/api/v1/teams/2")
         .then(response => {
             var team0 = response.data.data.upcoming["0"]["teams"]["0"]["tag"];
@@ -42,7 +39,7 @@ function getNextSEN(){
 
 </head>
 
-<body onload = "getOPR(); getNextSEN()">
+<body onload = "getOPR();">
 <p>Hello!</p>
 
 <p>I'm Iris! I'm trans, 16, and enjoy programing and playing games. Im a member of First Tech Challange 15031, BoltBusterZ.</p>
