@@ -12,7 +12,19 @@ function getOPR() {
         .then(response => {
             var opr = Math.round((response.data["tot"]["value"])*100)/100;
             document.getElementById("opr").innerHTML = opr;
-    })}
+            var rank = Math.min(response.data["auto"]["rank"], response.data["dc"]["rank"], response.data["eg"]["rank"]);
+            var value = Math.min(response.data["auto"]["value"], response.data["dc"]["value"], response.data["eg"]["value"]);
+            console.log(value)
+            document.getElementById("value").innerHTML = Math.round(value*100)/100;
+            if (rank == response.data["auto"]["rank"]){
+                var best = "autonomus";
+            } else if (rank == response.data["dc"]["rank"]){
+                var best = "teleOp";
+            } else if (rank == response.data["eg"]["rank"]){
+                var best = "endgame";
+            }
+            document.getElementById("best").innerHTML = best;
+        })};
 </script>
 </head>
 
@@ -23,4 +35,4 @@ function getOPR() {
 
 <p>My particular interests include combat robotics, Valorant Esports, and finding new ways to procrastinate doing my homework<p>
 
-<p> BoltBusterZ OPR is currently: <b><span id = "opr"></span></b></p>
+<p> BoltBusterZ OPR is currently <b><span id = "opr"></span></b>. Our best OPR is <b><span id = "best"></span></b> with <b><span id = "value"></span></b>.</p>
