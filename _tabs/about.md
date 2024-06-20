@@ -27,14 +27,14 @@ function getOPR() {
             document.getElementById("opr").innerHTML = opr;
             document.getElementById("value").innerHTML = Math.round(value*100)/100;
             document.getElementById("best").innerHTML = best;
-        })
+        });
     axios.get("https://vlr.orlandomm.net/api/v1/teams/2")
         .then(response => {
             var team0 = response.data.data.upcoming["0"]["teams"]["0"]["tag"];
             var team1 = response.data.data.upcoming["0"]["teams"]["1"]["tag"];
             document.getElementById("team0").innerHTML = team0;
             document.getElementById("team1").innerHTML = team1;            
-        })}
+        })};
 </script>
 
 </head>
