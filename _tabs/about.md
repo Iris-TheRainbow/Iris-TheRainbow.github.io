@@ -12,6 +12,6 @@ My particular interests include combat robotics, Valorant Esports, and finding n
 
 <p>BoltBusterZ OPR is currently: <b>
 <script language= 'javascript'> 
-return 24;
+document.write(24);
 </script>
 </b></p>
