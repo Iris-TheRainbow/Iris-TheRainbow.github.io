@@ -12,7 +12,9 @@ so heres my 2 cents on the.. Current situation (see what i did there?)
 Its a little cliche but to be perfectly honest what made me really realize that i loved ftc was kookybotzs powerplay swerve bot, which was a bot that made heavy use of axon
 servos to make it possible. It was mechanically complex and super cool to me, i can still remember the awe i was in while watching the insane autos that they had that year.
 The swerve dt that they had in that bot was something that i was especially interested at the time. I now know that its not worth the time to build a dt like that but i love
-that its possible. Thats what i love about ftc, insane, over the top robots are possible and can (and have) compete. I know that servos don’t make or break bots with cool
+that its possible. Thats what i love about ftc, insane, over the top robots are possible and can (and have) compete.
+
+I know that servos don’t make or break bots with cool
 mechanisms but high power servos have never been a huge advantage, anyways, they just help to enable cool stuff. I, nor any other person ive talked to have seen these servos
 as a huge competitive advantage either.
 
@@ -20,6 +22,7 @@ Now, nearly 2 years after the Axon servos have launched, many teams have investe
 made it a very accessible 80$ servo. In my league even teams use only axon servos because of their superior durability and their power compared to other servos, and do cool
 things with them too. The thing though is that if first didn’t want high performance servos in ftc this “problem” (quotes because i fail to find any real problem with them)
 should have been solved way before now. Not now when many, many teams have heavily invested into them.
+
 While axons may be affordable in comparison to what teams used before, I do understand how they are expensive in comparison to the offerings of REV or GoBuilda. But, as with
 all popular products, people want to improve on them. I know there are several products in the works that intend to bring the price of similar performance down to below 70$
 at a minimum and possibly even lower. That would bring the cost even closer to what other servos commonly used by teams are.
