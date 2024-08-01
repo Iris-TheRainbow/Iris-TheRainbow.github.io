@@ -12,7 +12,7 @@ so heres my 2 cents on the.. Current situation (see what i did there?)
 Its a little cliche but to be perfectly honest what made me really realize that i loved ftc was kookybotzs powerplay swerve bot, which was a bot that made heavy use of axon
 servos to make it possible. It was mechanically complex and super cool to me, i can still remember the awe i was in while watching the insane autos that they had that year.
 The swerve dt that they had in that bot was something that i was especially interested at the time. I now know that its not worth the time to build a dt like that but i love
-that its possible. Thats what i love about ftc, insane, over the top robots are possible and can (and have) compete.
+that its possible. Thats what i love about ftc, insane, over the top robots are possible and can (and have) compete at high levels.
 
 I know that servos don’t make or break bots with cool
 mechanisms but high power servos have never been a huge advantage, anyways, they just help to enable cool stuff. I, nor any other person ive talked to have seen these servos
