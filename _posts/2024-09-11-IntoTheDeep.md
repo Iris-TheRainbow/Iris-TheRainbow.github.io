@@ -1,5 +1,5 @@
 ---
-title: FTC 2024-2025\: Into the Deep 
+title: "FTC 2024-2025: Into the Deep "
 date: 2024-09-11 1:55:00 -0500
 categories: oppinions
 tags: FTC
