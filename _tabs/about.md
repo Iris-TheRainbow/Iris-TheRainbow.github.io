@@ -8,7 +8,7 @@ order: 4
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script language="javascript">
 function getOPR() {
-    axios.get("https://api.ftcscout.org/rest/v1/teams/15031/quick-stats?season=2023&region=All")
+    axios.get("https://api.ftcscout.org/rest/v1/teams/27971/quick-stats?season=2024&region=All")
         .then(response => {
             var opr = Math.round((response.data["tot"]["value"])*100)/100;
             var rank = Math.min(response.data["auto"]["rank"], response.data["dc"]["rank"], response.data["eg"]["rank"]);
@@ -42,7 +42,7 @@ function getOPR() {
 <body onload = "getOPR()">
 <p>Hello!</p>
 
-<p>I'm Iris! I'm trans, 16, and enjoy programing and playing games. Im a member of First Tech Challange 15031, BoltBusterZ.</p>
+<p>I'm Iris! I'm trans, 17, and enjoy programing and playing games. Im a member of First Tech Challange 27971, NullPointerException</p>
 
 <p>My particular interests include robotics, Valorant Esports, and finding new ways to procrastinate doing my homework<p>
 
